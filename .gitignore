@@ -1,5 +1,32 @@
+# Node.js
 node_modules/
-.env
-build/
+npm-debug.log*
 dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# React Native
+.expo/
+android/.gradle/
+ios/Pods/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
